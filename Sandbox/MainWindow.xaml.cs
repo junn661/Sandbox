@@ -27,9 +27,26 @@ namespace Sandbox
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           Console.WriteLine( TextBox1.Parent);
-           Console.WriteLine(this.ToString());
-          
+            //Console.WriteLine( TextBox1.Parent);
+            //Console.WriteLine(this.ToString());
+
+           foreach (Grid item in LogicalTreeHelper.GetChildren(this))
+           {
+               foreach (System.Windows.Controls.Control controls in item.Children)
+               {
+                   if (controls.GetType().Name == "TextBox")
+                   {
+                        TextBox tb = (TextBox)controls;
+                        Console.WriteLine(tb.Text);
+
+                    }
+                    if (controls.GetType().Name == "Button")
+                    {
+                        Button btn = (Button) controls;
+                        Console.WriteLine(btn.Content);
+                    }
+                }
+           }
         }
     }
 }
