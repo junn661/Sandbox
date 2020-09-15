@@ -36,17 +36,17 @@ namespace Sandbox
                {
                    if (controls.GetType().Name == "TextBox")
                    {
-                        TextBox tb = (TextBox)controls;
-                        Console.WriteLine(tb.Text);
-
-                    }
-                    if (controls.GetType().Name == "Button")
-                    {
-                        Button btn = (Button) controls;
-                        Console.WriteLine(btn.Content);
-                    }
-                }
+                        ((TextBox)controls).Focus();
+                        ((TextBox)controls).SelectAll();
+                   }
+               }
            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TextBox1.Focus();
+            TextBox1.SelectAll();
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{DF43F56C-4EB6-4498-9CBF-3F054D9F8EDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormSandbox", "WinFormSandbox\WinFormSandbox.csproj", "{4526E126-B380-4EC1-B357-9E0B183A5D13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DF43F56C-4EB6-4498-9CBF-3F054D9F8EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF43F56C-4EB6-4498-9CBF-3F054D9F8EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF43F56C-4EB6-4498-9CBF-3F054D9F8EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4526E126-B380-4EC1-B357-9E0B183A5D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4526E126-B380-4EC1-B357-9E0B183A5D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4526E126-B380-4EC1-B357-9E0B183A5D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4526E126-B380-4EC1-B357-9E0B183A5D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
